@@ -1,0 +1,128 @@
+body {
+   margin: 0 px;
+}
+
+.tabs {
+   width: 100%;
+   margin-bottom: 50px; /*отступ для awersome */
+   margin-top: 50px;
+}
+
+.tabs-container {
+   width: 1170px;
+   padding: 0 15px;
+   margin: 0 auto;
+   box-sizing: border-box;
+}
+
+.tabs-item {
+   width: 1170px;
+   height: 39px;
+}
+
+.tabs-item__tab-one {
+   display: inline-block;
+   width: 201px;
+   height: 39px;
+   box-sizing: border-box;
+   border-top: 1px solid #C6CBCD; 
+   border-left: 1px solid #C6CBCD;
+   border-right: 1px solid #C6CBCD;
+   border-top-left-radius: 6px;
+   border-top-right-radius: 6px;
+   text-align: center;
+   font-family: 'Open Sans';
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 39px;
+   color: #333333;
+   float: left;
+}
+
+.tabs-item__tab-two,.tabs-item__tab-three {
+   width: 184px;
+   height: 39px;
+   display: inline-block;
+   box-sizing: border-box;
+   border-bottom: 1px solid #C6CBCD;
+   text-align: center;
+   font-family: 'Open Sans';
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 39px;
+   color: #333333;
+   float: left;
+}
+
+.tabs-item__tab-four {
+   width: 600px;
+   height: 39px;
+   display: inline-block;
+   box-sizing: border-box;
+   border-bottom: 1px solid #C6CBCD;
+}
+
+.tabs-body {
+   width: 1170px;
+   height: 501px;
+   box-sizing: border-box;
+   border-left: 1px solid #C6CBCD;
+   border-right: 1px solid #C6CBCD;
+   border-bottom: 1px solid #C6CBCD;
+}
+
+.tabs-body-left {
+   display: inline-block;
+   width: 570px;
+   height: 500px;
+   margin: 0 33px 0 100px;
+   vertical-align: top;
+   float: left;
+}
+
+.tabs-body-left__title {
+   width: 570px;
+   height: 124px;
+   font-family: 'Open Sans';
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 124px;
+   color: #000000;
+   margin: 0 0 27px 0;
+}
+
+.tabs-body-left__text {
+   width: 570px;
+   font-family: 'Raleway';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #000000;
+   margin: 0 0 27px 0;
+}
+
+.tabs-body-left__button {
+   width: 270px;
+   height: 58px;
+   font-family: 'Open Sans';
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 25px;
+   text-align: center;
+   color: #FFFFFF;
+   background: #EC7979;
+   border: none;
+   margin: 0;
+   padding: 0;
+}
+
+.tabs-body-right {
+   display: inline-block;
+   width: 465px;
+   vertical-align: top;
+   margin: 0;
+   overflow: hidden
+}
+
+
+

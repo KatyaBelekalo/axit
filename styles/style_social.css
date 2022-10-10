@@ -1,0 +1,42 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.social {
+   width: 100%;
+   background: #000000;
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 0;
+}
+
+.link {
+   margin-bottom: 35px;
+   font-size: 0;
+   vertical-align: top;
+}
+
+.link__item-photo {
+   margin-top: 42px;
+   margin-right: 38px;
+}
+
+.last-photo {
+   margin-right: 0;
+}
+
+.copyright {
+   font-family: 'Raleway';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: rgba(255, 255, 255, 0.5);
+   padding-bottom: 27px;
+   box-sizing: border-box;
+   margin: 0;
+   }
+
+
+
+
