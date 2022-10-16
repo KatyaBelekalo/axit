@@ -5,39 +5,38 @@ body {
 
 .pricing-options {
    width: 100%;
-   height: 900px;
-   display: flex;
-   flex-direction: column;
-   justify-items: center;
-   align-items: center;
    background: #F5F5F5;
 }
 
 .container {
    width: 1170px;
    padding: 15px;
+   margin: 0 auto;
 }
-
 
 .pricing-options-header{
    width: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-items: center;
-   align-items: center;
 }
 
 .pricing-options-header__title {
-   height: 150px;
    font-family: 'Raleway';
    font-weight: 400;
    font-size: 36px;
-   line-height: 150px;
+   line-height: 42px;
    color: #000000;
+   text-align: center;
    margin: 0;
+   margin-top: 70px;
+   margin-bottom: 54px;
 }
 
-.pricing-options-header__line {
+.pricing-options-line{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.pricing-options-line__line {
    width: 170px;
    height: 0px;
    border: 1px solid #EC7979;
@@ -52,6 +51,7 @@ body {
    font-size: 18px;
    line-height: 21px;
    color: #86878B;
+   text-align: center;
    margin: 0;
    margin-bottom: 59px;
 }
@@ -61,11 +61,12 @@ body {
    height: 530px;
    display: flex;
    justify-content: space-between;
+   margin-bottom: 50px;
 }
 
 .location-basic-pro {
    display: flex;
-   align-items: end;
+   align-items: flex-end;
 }
 
 .columb-option-item {
