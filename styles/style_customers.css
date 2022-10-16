@@ -1,0 +1,130 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.customers {
+   width: 100%;
+}
+
+.customers-container {
+   width: 1170px;
+   padding: 15px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+}
+
+.customers__title {
+   font-family: 'Raleway';
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 42px;
+   text-align: center;
+   color: #000000;
+   margin: 0;
+   margin-top: 54px;
+   margin-bottom: 54px;
+}
+
+.customers-line {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.customers-line__line {
+   height: 0;
+   width: 170px;
+   border: 1px solid #EC7979;
+   box-sizing: border-box;
+   margin-bottom: 40px;
+}
+
+.customers__subtitle {
+   font-family: 'Raleway';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #86878B;
+   text-align: center;
+   margin: 0;
+   margin-bottom: 83px;
+}
+
+.customers__reverews {
+   width: 100%;
+}
+
+.customers-reverews-row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.customers-reverew-columb {
+   width: 370px;
+}
+
+.customers-reverew-columb-text {
+   width: 370px;
+   height: 180px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #E2E2E2;
+   border-radius: 10px;
+}
+.customers-reverew-columb-text__text{
+   width: 370px;
+   height: 105px;
+   font-family: 'Raleway';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #86878B;
+   text-align: center;
+   margin: 0;
+}
+
+.customers-reverew-columb__triangle {
+   width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #E2E2E2;
+   box-sizing: border-box;
+   position: relative;
+   left: 70px;
+}
+
+.customers-reverew-columb-body {
+   display: flex;
+   align-items: flex-start;
+   margin-top: 46px;
+}
+
+.customers-reverew-columb-body-left__photo {
+   margin-right: 30px;
+}
+
+.customers-reverew-columb-body-right__title {
+   width: 269px;
+   height: 54px;
+   font-family: 'Open Sans';
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 54px;
+   color: #000000;
+   margin: 0;
+   margin-bottom: 15px;
+}
+
+.customers-reverew-columb-body-right__subtitle {
+   font-family: 'Raleway';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #000000;
+   margin: 0;
+}
+
