@@ -4,15 +4,14 @@ body {
 
 .tabs {
    width: 100%;
-   margin-bottom: 100px; /*отступ для awersome */
    margin-top: 50px;
 }
 
 .tabs-container {
    width: 1170px;
-   padding: 0 15px;
    margin: 0 auto;
-   box-sizing: border-box;
+   padding: 15px;
+   margin-bottom: 50px; /*отступ для awersome */
 }
 
 .tabs-item {
@@ -121,7 +120,7 @@ body {
    width: 459px;
    vertical-align: top;
    margin: 0;
-   overflow: hidden
+   overflow: hidden;
 }
 
 

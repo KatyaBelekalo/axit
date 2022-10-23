@@ -1,0 +1,154 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.banner-block-background{
+   width: 100%;
+   height: 1026px;
+   background-image: url('../img/image.svg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   background-attachment: scrol;
+   position: relative;
+   z-index: 2;
+} 
+
+.banner-block-color{
+   width: 100%;
+   height: 1026px;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper {
+   height: 1026px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.banner{
+   width: 1170px;
+   padding: 15px;
+}
+
+.banner-wrap{   
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.banner__logo{
+   margin-bottom: 73px;
+}
+
+.banner__title {
+   width: 670px;
+   height: 168;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 48px;
+   line-height: 56px;
+   color: #FFFFFF;
+   margin: 0;
+   margin-bottom: 55px;
+
+}
+
+.banner-line__line{
+height: 0;
+width: 170px;
+box-sizing: border-box;
+border-bottom: 1px solid #FFFFFF;
+margin-bottom: 42px;
+}
+
+.banner__subtitle {
+   font-family: 'Raleway';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #FFFFFF;
+   margin: 0;
+   margin-bottom: 42px;
+}
+
+
+.banner__button{
+   width: 270px;
+   height: 58px;
+   box-sizing: border-box;
+   border: 2px solid #FFFFFF;
+   background-color: transparent;
+   font-family: 'Open Sans';
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 25px;
+   color: #FFFFFF;
+   padding: 0;
+}
+
+.banner__button:hover{
+   cursor: pointer;
+}
+
+.form-banner{
+   width: 470px;
+   height: 450px;
+   background: #FFFFFF;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.form-banner__title{
+   font-family: 'Open Sans';
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   color: #333333;
+   margin: 0;
+   padding: 33px 12px;
+   
+}
+
+.form-banner-title-color{
+   color: #EC7979;
+}
+
+.form-banner__item{
+   width: 370px;
+   height: 51px;
+   border: none;
+   border-bottom: 1px solid #BDBDBD;
+   padding: 0;
+}
+
+.form-banner__button{
+   width: 100%;
+   height: 60px;
+   font-family: 'Open Sans';
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 20px;
+   color: #FFFFFF;
+   background: #EC7979;
+   border-radius: 0px 0px 10px 10px;
+   box-sizing: border-box;
+   border: none;
+   padding: 0;
+}
+
+.form-banner__button:hover{
+   cursor: pointer;
+}
+
+
+

@@ -40,7 +40,7 @@ body {
 .pricing-options-line__line {
    width: 170px;
    height: 0px;
-   border: 1px solid #EC7979;
+   border-bottom: 1px solid #EC7979;
    margin-bottom: 40px;
    box-sizing: border-box;
 }
@@ -70,13 +70,13 @@ body {
    align-items: flex-end;
 }
 
-.columb-option-item {
+.column-option-item {
    list-style-type: none;
    padding: 0;
    margin: 0;
 }
 
-.columb-option-item__title {
+.column-option-item__title {
    width: 370px;
    height: 60px;
    background: #333333;
@@ -90,7 +90,7 @@ body {
    box-sizing: border-box;
 }
 
-.columb-option-item__price {
+.column-option-item__price {
    width: 370px;
    height: 100px;
    background: #333333;
@@ -104,7 +104,7 @@ body {
    box-sizing: border-box;
 }
 
-.columb-option-item__text, .columb-option-item__subtitle {
+.column-option-item__text, .column-option-item__subtitle {
    width: 370px;
    height: 50px;
    border: 2px solid #F5F5F5;

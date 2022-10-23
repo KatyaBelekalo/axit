@@ -1,0 +1,123 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.contact-us {
+   width: 100%;
+   margin-bottom: 50px;
+}
+
+.contact-us-container {
+   width: 1170px;
+   margin: 0 auto;
+   padding: 15px;
+}
+
+.contact-us-container__title {
+   font-family: 'Raleway';
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 42px;
+   text-align: center;
+   color: #000000;
+   margin: 0;
+   margin-top: 54px;
+   margin-bottom: 54px;
+}
+
+.contact-us-container__line {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contact-us-container-line__line {
+   height: 0;
+   width: 170px;
+   border-bottom: 1px solid #EC7979;
+   box-sizing: border-box;
+   margin-bottom: 40px;
+}
+
+.contact-us-container__subtitle {
+   font-family: 'Raleway';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #86878B;
+   text-align: center;
+   margin: 0;
+   margin-bottom: 73px;
+}
+
+.form-contact-us-wapper {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 50px;
+}
+
+.form-contact-us-right {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.form-contact-us__item-contact-us {
+   width: 571px;
+   font-family: 'Open Sans';
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   color: #BDBDBD;
+   border: none;
+   border-bottom: 1px solid #BDBDBD;
+   box-sizing: border-box;
+   padding: 16px 0;
+}
+
+.password-indent{
+   margin: 0;
+}
+
+.form-left{
+   display: flex;
+}
+
+.form-contact-us__text-contact-us{
+   width: 569px;
+   height: 211px;
+   font-family: 'Open Sans';
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   border: none;
+   border-bottom: 1px solid #BDBDBD;
+   box-sizing: border-box;
+   color: #BDBDBD;
+   overflow: hidden;
+   align-self: flex-end;
+   padding: 0;
+   padding-top: 16px;
+}
+
+.form-contact-us-button{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.form-contact-us-button__button-contact-us {
+   width: 370px;
+   height: 58px;
+   background: #EC7979;
+   font-family: 'Open Sans';
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 25px;
+   color: #FFFFFF;
+   border: none;
+   padding: 0;
+}

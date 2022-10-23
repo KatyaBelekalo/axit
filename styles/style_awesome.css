@@ -4,13 +4,13 @@ body {
 
 .awesome {
    width: 100%;
+   margin-bottom: 58px;
 }
 
 .awesome-container {
    width: 1170px;
-   padding: 0 15px;
+   padding: 15px;
    margin: 0 auto;
-   margin-bottom: 50px;
 }
 
 .awesome__title {
@@ -25,9 +25,9 @@ body {
 }
 
 .awesome__line {
-   width: 142px;
+   width: 170px;
    height: 0;
-   border: 1px solid #EC7979;
+   border-bottom: 1px solid #EC7979;
    margin: 0 auto 32px auto;
 }
 .awesome__subtitle {

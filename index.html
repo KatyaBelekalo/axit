@@ -4,17 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style_header.css">
+    <link rel="stylesheet" href="./styles/style_banner.css">
+    <link rel="stylesheet" href="./styles/style_sosial_media.css">
     <link rel="stylesheet" href="./styles/style_tabs.css">
     <link rel="stylesheet" href="./styles/style_awesome.css">
     <link rel="stylesheet" href="./styles/style_social.css">
     <link rel="stylesheet" href="./styles/style_pricing.css">
+    <link rel="stylesheet" href="./styles/style_desing.css">
+    <link rel="stylesheet" href="./styles/style_сontact_us.css">
     <link rel="stylesheet" href="./styles/style_customers.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;700;800&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
     <title>axit</title>
 </head>
 <body>
+    <header class="header">
+        <div class="header-container">
+            <img class="header-logo" src="./img/logo.svg" alt="icone">
+            <nav class="header-menu">
+                <a class="header-menu__link" href="#">Features</a>
+                <a class="header-menu__link" href="#">About</a>
+                <a class="header-menu__link" href="#">Pricing</a>
+                <a class="header-menu__link" href="#">Reviews</a>
+                <a class="header-menu__link" href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
     <main class="main">
+        <!-- cекция Banner -->
+    <div class="banner-block-background">
+        <div class="banner-block-color"> 
+            <div class="wrapper">
+                <div class="banner"> 
+                    <div class="banner-wrap">
+                        <div class="banner-wrap-right">
+                            <img class="banner__logo" src="./img/logotwo.svg" alt="icone">
+                            <h2 class="banner__title">
+                                MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+                            </h2>
+                            <div class="banner-line__line"></div>
+                            <h5 class="banner__subtitle"> 
+                                Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit
+                            </h5>
+                            <button class="banner__button"> Download </button>
+                        </div>  
+                        <div class="banner-wrap-left">
+                            <form action="#" class="form-banner">
+                                <h3 class="form-banner__title"> TRY YOUR <span class="form-banner-title-color">FREE </span>  TRIAL TODAY </h3>
+                                <label for="name">
+                                    <input class="form-banner__item" type="text" name="name" placeholder="Name">
+                                </label>
+                                <label for="email">
+                                    <input class="form-banner__item" type="email" name="email" placeholder="Email">
+                                </label>
+                                <label for="password">
+                                    <input class="form-banner__item" type="password" name="password" placeholder="Password">
+                                </label>
+                                <button class="form-banner__button"> Get Started </button>
+                            </form>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- cекция Social Media -->
+        <div class="social-media">
+            <div class="social-media-container">
+                <div class="social-media-wrap">
+                    <div class="social-media-column-text">
+                        <h4 class="social-media__title">
+                            Social Media 
+                        </h4>
+                        <p class="social-media__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Aenean euismod bibendum laoreet. 
+                        </p>
+                    </div>
+                    <a href="#" class="social-media__link"> 
+                        <img class="social-media__icone" src="./img/facebook_icon.svg" alt="facebook_icon">
+                    </a>
+                    <a href="#" class="social-media__link"> 
+                        <img class="social-media__icone" src="./img/twitter_icon.svg" alt="twitter_icon">
+                    </a>
+                    <a href="#" class="social-media__link"> 
+                        <img class="social-media__icone" src="./img/linkedin_icon.svg" alt="linkedin_icon">
+                    </a>
+                    <a href="#" class="social-media__link"> 
+                        <img class="social-media__icone" src="./img/pinterest_icon.svg" alt="pinterest_icon">
+                    </a>
+                    <a href="#" class="social-media__link"> 
+                        <img class="social-media__icone" src="./img/instagram_icon.svg" alt="instagram_icon">
+                    </a>
+                    <a href="#" class="social-media__link"> 
+                        <img class="social-media__icone" src="./img/github_icon.svg" alt="github_icon">
+                    </a>
+                    <a href="#" class="social-media__link"> 
+                        <img class="social-media__icone" src="./img/rss_icon.svg" alt="rss_icon">
+                    </a>
+                </div>
+            </div>
+        </div>
         <!-- секция tabs -->
         <div class="tabs">
             <div class="tabs-container"> 
@@ -109,43 +201,43 @@
                     </h4>
                 </div>
                 <div class="pricing-options-body">
-                    <div class="columb-options location-basic-pro">
-                        <ul class="columb-option-item">
-                            <li class="columb-option-item__title">Basic</li>
-                            <li class="columb-option-item__price">$10</li>
-                            <li class="columb-option-item__subtitle subtitle-color">Free for life</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
+                    <div class="column-options location-basic-pro">
+                        <ul class="column-option-item">
+                            <li class="column-option-item__title">Basic</li>
+                            <li class="column-option-item__price">$10</li>
+                            <li class="column-option-item__subtitle subtitle-color">Free for life</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
                         </ul>
                     </div>
-                    <div class="columb-options">
-                        <ul class="columb-option-item">
-                            <li class="columb-option-item__title">Optima</li>
-                            <li class="columb-option-item__price">$20</li>
-                            <li class="columb-option-item__subtitle subtitle-color">Free for life</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
+                    <div class="column-options">
+                        <ul class="column-option-item">
+                            <li class="column-option-item__title">Optima</li>
+                            <li class="column-option-item__price">$20</li>
+                            <li class="column-option-item__subtitle subtitle-color">Free for life</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
                         </ul>
                     </div>
-                    <div class="columb-options  location-basic-pro">
-                        <ul class="columb-option-item">
-                            <li class="columb-option-item__title">Pro</li>
-                            <li class="columb-option-item__price">$30</li>
-                            <li class="columb-option-item__subtitle subtitle-color">Free for life</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
-                            <li class="columb-option-item__text text-color">1 Gb Of Space</li>
+                    <div class="column-options  location-basic-pro">
+                        <ul class="column-option-item">
+                            <li class="column-option-item__title">Pro</li>
+                            <li class="column-option-item__price">$30</li>
+                            <li class="column-option-item__subtitle subtitle-color">Free for life</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
+                            <li class="column-option-item__text text-color">1 Gb Of Space</li>
                         </ul>
                     </div>
                 </div>
@@ -168,67 +260,124 @@
                 <div class="customers__reverews">
                     <div class="customers-reverews-row">
                         <div class="customers-reverew-columb">
-                            <article class="customers-reverew-columb-text">
-                                <p class="customers-reverew-columb-text__text"> Lorem ipsum dolor sit amet, <br>
+                            <article class="customers-reverew-column-text">
+                                <p class="customers-reverew-column-text__text"> Lorem ipsum dolor sit amet, <br>
                                 consectetur adipisicing elit. Doloribus <br>
                                 accusamus expedita repellat similique <br>
                                 odio aspernatur ex, architecto eaque <br>
                                 quo suscipit. </p>
                             </article>
-                            <div class="customers-reverew-columb__triangle">
+                            <div class="customers-reverew-column__triangle">
                             </div>
-                            <div class="customers-reverew-columb-body">
-                                <div class="customers-reverew-columb-body-left"> 
-                                    <img class="customers-reverew-columb-body-left__photo" src="./img/Ellipse 7.png" alt="">
+                            <div class="customers-reverew-column-body">
+                                <div class="customers-reverew-column-body-left"> 
+                                    <img class="customers-reverew-column-body-left__photo" src="./img/Ellipse 7.png" alt="">
                                 </div>      
-                                <div class="customers-reverew-columb-body-right">
-                                    <h3 class="customers-reverew-columb-body-right__title"> Davis Rhiel Madsen</h3>
-                                    <h5 class="customers-reverew-columb-body-right__subtitle">Manager</h5>
+                                <div class="customers-reverew-column-body-right">
+                                    <h3 class="customers-reverew-column-body-right__title"> Davis Rhiel Madsen</h3>
+                                    <h5 class="customers-reverew-column-body-right__subtitle">Manager</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="customers-reverew-columb">
-                            <article class="customers-reverew-columb-text">
-                                <p class="customers-reverew-columb-text__text"> Lorem ipsum dolor sit amet, <br>
+                        <div class="customers-reverew-column">
+                            <article class="customers-reverew-column-text">
+                                <p class="customers-reverew-column-text__text"> Lorem ipsum dolor sit amet, <br>
                                 consectetur adipisicing elit. Doloribus <br>
                                 accusamus expedita repellat similique <br>
                                 odio aspernatur ex, architecto eaque <br>
                                 quo suscipit. </p>
                             </article>
-                            <div class="customers-reverew-columb__triangle">
+                            <div class="customers-reverew-column__triangle">
                             </div>
-                            <div class="customers-reverew-columb-body">
-                                <div class="customers-reverew-columb-body-left"> 
-                                    <img class="customers-reverew-columb-body-left__photo" src="./img/Ellipse 8.png" alt="">
+                            <div class="customers-reverew-column-body">
+                                <div class="customers-reverew-column-body-left"> 
+                                    <img class="customers-reverew-column-body-left__photo" src="./img/Ellipse 8.png" alt="">
                                 </div>      
-                                <div class="customers-reverew-columb-body-right">
-                                    <h3 class="customers-reverew-columb-body-right__title"> Jaydon Rosser</h3>
-                                    <h5 class="customers-reverew-columb-body-right__subtitle">Manager</h5>
+                                <div class="customers-reverew-column-body-right">
+                                    <h3 class="customers-reverew-column-body-right__title"> Jaydon Rosser</h3>
+                                    <h5 class="customers-reverew-column-body-right__subtitle">Manager</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="customers-reverew-columb">
-                            <article class="customers-reverew-columb-text">
-                                <p class="customers-reverew-columb-text__text"> Lorem ipsum dolor sit amet, <br>
+                        <div class="customers-reverew-column">
+                            <article class="customers-reverew-column-text">
+                                <p class="customers-reverew-column-text__text"> Lorem ipsum dolor sit amet, <br>
                                 consectetur adipisicing elit. Doloribus <br>
                                 accusamus expedita repellat similique <br>
                                 odio aspernatur ex, architecto eaque <br>
                                 quo suscipit. </p>
                             </article>
-                            <div class="customers-reverew-columb__triangle">
+                            <div class="customers-reverew-column__triangle">
                             </div>
-                            <div class="customers-reverew-columb-body">
-                                <div class="customers-reverew-columb-body-left"> 
-                                    <img class="customers-reverew-columb-body-left__photo" src="./img/Ellipse 9.png" alt="">
+                            <div class="customers-reverew-column-body">
+                                <div class="customers-reverew-column-body-left"> 
+                                    <img class="customers-reverew-column-body-left__photo" src="./img/Ellipse 9.png" alt="">
                                 </div>      
-                                <div class="customers-reverew-columb-body-right">
-                                    <h3 class="customers-reverew-columb-body-right__title"> Cooper Dorwart</h3>
-                                    <h5 class="customers-reverew-columb-body-right__subtitle">Manager</h5>
+                                <div class="customers-reverew-column-body-right">
+                                    <h3 class="customers-reverew-column-body-right__title"> Cooper Dorwart</h3>
+                                    <h5 class="customers-reverew-column-body-right__subtitle">Manager</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+         <!-- cекция DESIGN -->
+         <div class="block-background">
+            <div class="block-color">
+                <div class="design-container"> 
+                    <div class="design">
+                        <h2 class="design__title">
+                            STYLISH AXURE DESIGN
+                        </h2>
+                        <div class="design__line design-line">
+                            <div class="desing-line__line"></div>
+                        </div>
+                        <h5 class="design__subtitle"> 
+                            Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
+                        </h5>
+                        <div class="design-button">
+                            <a class="design-button__link" href="#"> Download </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- cекция Contact us -->  
+        <div class="contact-us">
+            <div class="contact-us-container">
+                <h2 class="contact-us-container__title"> 
+                    CONTACT US
+                </h2>
+                <div class="contact-us-container__line contact-us-container-line">
+                    <div class="contact-us-container-line__line"></div>
+                </div>
+                <h5 class="contact-us-container__subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </h5>
+                <form action="#" class="form-contact-us">
+                    <div class="form-contact-us-wapper">
+                        <div class="form-contact-us-right">
+                            <label for="name">
+                                <input class="form-contact-us__item-contact-us" type="text" name="name" placeholder="Name">
+                            </label>
+                            <label for="email">
+                                <input class="form-contact-us__item-contact-us" type="email" name="email" placeholder="Email">
+                            </label>
+                            <label for="password">
+                                <input class="form-contact-us__item-contact-us password-indent" type="password" name="password" placeholder="Password">
+                            </label>
+                        </div>
+                        <div class="form-left">
+                            <textarea class="form-contact-us__text-contact-us" name="text"> Message </textarea>
+                        </div>
+                    </div>
+                    <div class="form-contact-us-button">
+                        <button class="form-contact-us-button__button-contact-us"> Get Started </button>
+                    </div>
+                </form> 
             </div>
         </div>
     </main>
