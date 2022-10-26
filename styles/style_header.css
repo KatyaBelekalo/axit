@@ -27,10 +27,6 @@ body{
    align-items: center;
 }
 
-.header-menu:hover{
-   cursor: pointer;
-}
-
 .header-menu__link{
    text-decoration: none;
    width: 114px;
@@ -41,6 +37,20 @@ body{
    line-height:75px;
    color: #FFFFFF;
    text-align: center;
+}
+
+.header-menu__link:hover{
+   cursor: pointer;
+   background-color: #EC7979;
+   font-weight: 700;
+   font-size: 13px;
+}
+
+.header-menu__link:focus{
+   background-color #EC7979;
+   background-color: #AB4949;
+   font-weight: 700;
+   font-size: 13px;
 }
 
 

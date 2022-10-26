@@ -26,10 +26,9 @@ body {
 
 .design__title {
    font-family: 'Raleway';
-   font-style: normal;
    font-weight: 400;
-   font-size: 24px;
-   line-height: 28px;
+   font-size: 36px;
+   line-height: 42px;
    color: #FFFFFF;
    margin: 0;
    margin-top: 104px;
@@ -54,10 +53,10 @@ body {
 .design__subtitle {
    font-family: 'Raleway';
    font-weight: 400;
-   font-size: 14px;
-   line-height: 16px;
-   text-align: center;
+   font-size: 18px;
+   line-height: 21px;
    color: #FFFFFF;
+   text-align: center;
    margin: 0;
    margin-bottom: 32px;
 }
@@ -74,10 +73,6 @@ body {
    margin-bottom: 50px;
 }
 
-.design-button__link:hover{
-   cursor: pointer;
-}
-
 .design-button__link{
    text-decoration: none;
    font-family: 'Open Sans';
@@ -85,4 +80,8 @@ body {
    font-size: 18px;
    line-height: 25px;
    color: #FFFFFF;
+}
+
+.design-button__link:hover{
+   cursor: pointer;
 }

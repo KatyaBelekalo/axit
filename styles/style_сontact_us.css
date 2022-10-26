@@ -59,6 +59,7 @@ body {
 }
 
 .form-contact-us-right {
+   height: 211px;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -120,4 +121,8 @@ body {
    color: #FFFFFF;
    border: none;
    padding: 0;
+}
+
+.form-contact-us-button__button-contact-us:hover {
+   cursor: pointer;
 }

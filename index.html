@@ -47,21 +47,15 @@
                             <h5 class="banner__subtitle"> 
                                 Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit
                             </h5>
-                            <button class="banner__button"> Download </button>
+                            <button type="button" class="banner__button"> Download </button>
                         </div>  
                         <div class="banner-wrap-left">
                             <form action="#" class="form-banner">
                                 <h3 class="form-banner__title"> TRY YOUR <span class="form-banner-title-color">FREE </span>  TRIAL TODAY </h3>
-                                <label for="name">
-                                    <input class="form-banner__item" type="text" name="name" placeholder="Name">
-                                </label>
-                                <label for="email">
-                                    <input class="form-banner__item" type="email" name="email" placeholder="Email">
-                                </label>
-                                <label for="password">
-                                    <input class="form-banner__item" type="password" name="password" placeholder="Password">
-                                </label>
-                                <button class="form-banner__button"> Get Started </button>
+                                <input class="form-banner__item" type="text" name="name" placeholder="Name">
+                                <input class="form-banner__item" type="email" name="email" placeholder="Email">
+                                <input class="form-banner__item" type="password" name="password" placeholder="Password">
+                                <button type="submit" class="form-banner__button"> Get Started </button>
                             </form>
                         </div>
                     </div> 
@@ -127,7 +121,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br> euismod<br>  
                             bibendum laoreet.
                         </p>
-                        <button class="tabs-body-left__button"> Download </button>
+                        <button type="button" class="tabs-body-left__button"> Download </button>
                     </div>
                     <div class="tabs-body-right">
                         <img class="tabs-body-right__photo" src="./img/Statue of Liberty.png" alt="#">
@@ -215,7 +209,7 @@
                         </ul>
                     </div>
                     <div class="column-options">
-                        <ul class="column-option-item">
+                        <ul class="column-option-item  shadow">
                             <li class="column-option-item__title">Optima</li>
                             <li class="column-option-item__price">$20</li>
                             <li class="column-option-item__subtitle subtitle-color">Free for life</li>
@@ -338,7 +332,7 @@
                             Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
                         </h5>
                         <div class="design-button">
-                            <a class="design-button__link" href="#"> Download </a>
+                            <a class="design-button__link" href="#" download="" target="_blank"> Download </a>
                         </div>
                     </div>
                 </div>
@@ -360,22 +354,16 @@
                 <form action="#" class="form-contact-us">
                     <div class="form-contact-us-wapper">
                         <div class="form-contact-us-right">
-                            <label for="name">
-                                <input class="form-contact-us__item-contact-us" type="text" name="name" placeholder="Name">
-                            </label>
-                            <label for="email">
-                                <input class="form-contact-us__item-contact-us" type="email" name="email" placeholder="Email">
-                            </label>
-                            <label for="password">
-                                <input class="form-contact-us__item-contact-us password-indent" type="password" name="password" placeholder="Password">
-                            </label>
+                            <input class="form-contact-us__item-contact-us" type="text" name="name" placeholder="Name">
+                            <input class="form-contact-us__item-contact-us" type="email" name="email" placeholder="Email">
+                            <input class="form-contact-us__item-contact-us password-indent" type="password" name="password" placeholder="Password">
                         </div>
                         <div class="form-left">
-                            <textarea class="form-contact-us__text-contact-us" name="text"> Message </textarea>
+                        <textarea class="form-contact-us__text-contact-us" name="text" placeholder="Message"> </textarea>
                         </div>
                     </div>
                     <div class="form-contact-us-button">
-                        <button class="form-contact-us-button__button-contact-us"> Get Started </button>
+                        <button type="submit" class="form-contact-us-button__button-contact-us"> Get Started </button>
                     </div>
                 </form> 
             </div>

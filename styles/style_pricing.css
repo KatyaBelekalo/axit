@@ -45,6 +45,10 @@ body {
    box-sizing: border-box;
 }
 
+.shadow {
+   box-shadow:0px 4px 10px rgba(51, 51, 51, 0.5);
+}
+
 .pricing-options-header__subtitle {
    height: 21px;
    font-family: 'Raleway';

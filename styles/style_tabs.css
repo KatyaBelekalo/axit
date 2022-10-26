@@ -115,6 +115,16 @@ body {
    padding: 0;
 }
 
+.tabs-body-left__button:hover{
+   cursor: pointer;
+   background-color: #AB4949;
+}
+
+.tabs-body-left__button:focus{
+   background-color: #EC7979;
+   box-shadow: inset 0px 0px 10px #AB4949;
+}
+
 .tabs-body-right {
    display: inline-block;
    width: 459px;
