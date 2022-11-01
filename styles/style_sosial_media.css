@@ -13,6 +13,7 @@ body{
    width: 1170px;
    padding: 15px;
    margin: 0 auto;
+   box-sizing: border-box;
 }
 
 .social-media-wrap{
@@ -21,24 +22,24 @@ body{
    flex-direction: row;
    align-items: center;
    justify-content: space-between;
-   
+}
+
+.social-media-column-text{
+   width: 41%;
 }
 
 .social-media__title{
-   width: 470px;
-   height: 42px;
    font-family: 'Open Sans';
    font-weight: 700;
    font-size: 24px;
    line-height: 33px;
    color: #333333;
+   padding: 13.5px 0;
    margin: 0;
    margin-bottom: 18px;
 }
 
 .social-media__text{
-   width: 470px;
-   height: 45px;
    font-family: 'Raleway';
    font-weight: 400;
    font-size: 18px;
@@ -48,8 +49,104 @@ body{
    margin-bottom: 18px;
 }
 
+.social-media-link-wrap{
+   width: 58%;
+   display: flex;
+   justify-content: space-between;
+}
 
 .social-media__icone:hover{
    cursor: pointer;
 }
+
+.social-media__icone{
+   width: 70px;
+   height: 70px;
+}
+
+
+@media screen and (max-width: 1245px){
+   .social-media{
+      margin-bottom: 50px;
+   }
+   
+   .social-media-container{
+      width: 100%;
+   }
+
+   .social-media__title{
+      font-size: 18px;
+      line-height: 25px;
+      padding: 10px 0;
+      margin-bottom: 13px;
+   }
+   
+   .social-media__text{
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 13px;
+   }
+   
+   .social-media__icone{
+      width: 64px;
+      height: 64px;
+   }
+}
+
+@media screen and (max-width: 1060px){
+   .social-media-wrap{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .social-media-column-text{
+      width: 100%;
+   }
+
+   .social-media__title{
+      text-align: center;
+   }
+      
+   .social-media__text{
+      text-align: center;
+   }
+
+   .social-media-link-wrap{
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 32px;
+   }
+
+   .social-media-link-wrap{
+      width: 60%;
+   }
+
+   .social-media__icone{
+      width: 64px;
+      height: 64px;
+   }
+}
+
+@media screen and (max-width: 480px){
+   .social-media{
+      margin-bottom: 41px;
+   }
+   .social-media__title{
+      margin-bottom: 31px;
+   }
+   .social-media__text{
+      margin-bottom: 34px;
+   }
+   .social-media__icone{
+      width: 26px;
+      height: 26px;
+   }
+   .social-media-link-wrap{
+      margin-bottom: 44px;
+   }
+}
+
+
 

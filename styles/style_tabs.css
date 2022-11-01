@@ -11,6 +11,7 @@ body {
    width: 1170px;
    margin: 0 auto;
    padding: 15px;
+   box-sizing: border-box;
    margin-bottom: 50px; /*отступ для awersome */
 }
 
@@ -133,5 +134,8 @@ body {
    overflow: hidden;
 }
 
+@media screen and (max-width: 1280px){
+   .tabs-container {
+      width: 100%;}
 
-
+   }

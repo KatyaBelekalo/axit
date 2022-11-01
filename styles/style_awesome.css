@@ -10,6 +10,8 @@ body {
 .awesome-container {
    width: 1170px;
    padding: 15px;
+   box-sizing: border-box;
+   margin: 0;
    margin: 0 auto;
 }
 
@@ -30,8 +32,8 @@ body {
    border-bottom: 1px solid #EC7979;
    margin: 0 auto 32px auto;
 }
+
 .awesome__subtitle {
-   height: 21px;
    font-family: 'Raleway';
    font-weight: 400;
    font-size: 18px;
@@ -43,16 +45,19 @@ body {
 
 .awesome__box-offers {
    width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 
 .item-offers {    
-   display: inline-block;
-   width: 365px; 
-   margin: 0 30px 0 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-right: 30px;
 }
 
 .item-offers__imge {
-   margin: 0 auto;
    border-radius: 50%;
    width: 92px;
    height: 92px;
@@ -64,7 +69,6 @@ body {
 }
 
 .item-offers__title {
-   width: 367px;
    height: 100px;
    font-family: 'Open Sans';
    font-weight: 700;
@@ -76,7 +80,6 @@ body {
 }
 
 .item-offers__text {
-   width: 367px;
    height: 105px;
    font-family: 'Raleway';
    font-weight: 400;
@@ -88,5 +91,94 @@ body {
 }
 
 .offers{
-   margin: 0px;
+   margin-right: 0px;
+}
+
+@media screen and (max-width: 1245px){
+   .awesome {
+      margin-bottom: 60px;
+   }
+   
+   .awesome-container{
+      width: 100%;
+   }
+
+   .awesome__title {
+      font-size: 24px;
+      line-height: 28px;
+      margin-top: 48px;
+      margin-bottom: 48px;
+   }
+   
+   .awesome__line {
+      width: 142px;
+   }
+   
+   .awesome__subtitle {
+      font-size: 14px;
+      line-height: 16px;
+   }
+   
+   .item-offers {    
+      margin-right: 20px;
+   }
+   
+   .item-offers__title {
+      height: 82px;
+      font-size: 18px;
+      line-height: 82px;
+      margin: 33px 0 9px 0;
+   }
+   
+   .item-offers__text {
+      height: 80px;
+      font-size: 14px;
+      line-height: 16px;
+   }
+
+   .offers{
+      margin-right: 0px;
+   }
+}
+
+@media screen and (max-width: 1060px){
+   .awesome__line {
+      margin-bottom: 25px;
+   }
+   .awesome__subtitle {
+      margin-bottom: 84px;
+   }
+   .awesome__box-offers {
+      display: inline-block;
+   }
+
+   .item-offers{
+      margin-bottom: 44px;
+      margin-right: 0;
+   }
+
+   .item-offers__imge{
+      width: 80px;
+      height: 80px;
+   }
+}
+
+@media screen and (max-width: 480px){
+   .item-offers__text, .item-offers__title  {
+      width: 90%;
+   }
+
+   .awesome__title {
+      font-size: 18px;
+      line-height: 21px;
+   }
+   
+   .awesome__line {
+      width: 134px;
+   }
+   
+   .awesome__subtitle {
+      font-size: 13px;
+      line-height: 15px;
+   }
 }

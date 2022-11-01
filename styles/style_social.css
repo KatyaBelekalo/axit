@@ -6,19 +6,16 @@ body {
 .social {
    width: 100%;
    background: #000000;
-   margin: 0 auto;
    text-align: center;
-   margin-top: 0;
 }
 
-.link {
-   margin-bottom: 35px;
+.social__link {
+   width: 100%;
    font-size: 0;
-   vertical-align: top;
 }
 
 .link__item-photo {
-   margin-top: 42px;
+   margin-top: 35px;
    margin-right: 38px;
 }
 
@@ -32,11 +29,41 @@ body {
    font-size: 18px;
    line-height: 21px;
    color: rgba(255, 255, 255, 0.5);
+   padding-top: 34px;
    padding-bottom: 27px;
    box-sizing: border-box;
    margin: 0;
    }
 
+@media screen and (max-width: 1024px) {
+   .link__item-photo {
+      margin-right: 28px;
+   }
+   .link__item-photo{
+      width: 45px;
+      height: 45px;
+   }
+   .copyright {
+      font-size: 14px;
+      line-height: 16px;   
+      padding-bottom: 30px;
+      padding-top: 38px;
+   }
+}
+
+@media screen and (max-width: 728px){
+   .link__item-photo {
+      margin-right: 17px;
+   }
+   .link__item-photo{
+      width: 26px;
+      height: 26px;
+   }
+   .copyright {
+      padding-bottom: 45px;
+      padding-top: 42px;
+   }
+}
 
 
 

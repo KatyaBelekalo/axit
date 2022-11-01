@@ -5,14 +5,14 @@ body {
 
 .pricing-options {
    width: 100%;
-   background: #F5F5F5;
-   margin-bottom: 50px;
-}
+   background: #F5F5F5;}
 
 .container {
    width: 1170px;
    padding: 15px;
+   margin: 0;
    margin: 0 auto;
+   box-sizing: border-box;
 }
 
 .pricing-options-header{
@@ -50,7 +50,6 @@ body {
 }
 
 .pricing-options-header__subtitle {
-   height: 21px;
    font-family: 'Raleway';
    font-weight: 400;
    font-size: 18px;
@@ -78,10 +77,10 @@ body {
    list-style-type: none;
    padding: 0;
    margin: 0;
+   width: 370px;
 }
 
 .column-option-item__title {
-   width: 370px;
    height: 60px;
    background: #333333;
    border: 2px solid #F5F5F5;
@@ -95,7 +94,6 @@ body {
 }
 
 .column-option-item__price {
-   width: 370px;
    height: 100px;
    background: #333333;
    border: 2px solid #F5F5F5;
@@ -109,7 +107,6 @@ body {
 }
 
 .column-option-item__text, .column-option-item__subtitle {
-   width: 370px;
    height: 50px;
    border: 2px solid #F5F5F5;
    font-family: 'Raleway';
@@ -131,3 +128,67 @@ body {
    color: rgba(255, 255, 255, 0.5);
 }
 
+@media screen and (max-width: 1245px){
+   .container {
+      width: 100%;}
+   
+   .pricing-options-header__title {
+      font-size: 24px;
+      line-height: 28px;
+      margin-top: 48px;
+      margin-bottom: 48px;
+   }
+      
+   .pricing-options-line__line {
+      width: 143px;
+      height: 0px;
+      margin-bottom: 32px;
+   }
+      
+   .pricing-options-header__subtitle {
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 49px;
+   }
+      
+   .pricing-options-body {
+      height: 470px;
+   }
+      
+   .column-option-item {
+      width: 318px;
+   }
+      
+   .column-option-item__title {
+      height: 53px;
+      font-size: 24px;
+      line-height: 53px;
+   }
+      
+   .column-option-item__price {
+      height: 89px;
+      line-height: 89px;
+   }
+      
+   .column-option-item__text, .column-option-item__subtitle {
+      height: 44px;
+      line-height: 44px;
+   }
+}
+
+@media screen and (max-width: 1060px){
+   .pricing-options-body {
+      height: 100%;
+      flex-direction: column;
+   }
+   .column-options{
+      margin: 0 auto;
+      margin-bottom: 27px;
+   }
+
+@media screen and (max-width: 480px){
+   .column-option-item  {
+      width: 258px;
+   } 
+}
+}

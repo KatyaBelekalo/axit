@@ -12,6 +12,7 @@ body {
    width: 1170px;
    padding: 15px;
    margin: 0 auto;
+   box-sizing: border-box;
 }
 
 .customers__title {
@@ -66,7 +67,6 @@ body {
 }
 
 .customers-reverew-column-text {
-   width: 370px;
    height: 180px;
    display: flex;
    align-items: center;
@@ -75,8 +75,6 @@ body {
    border-radius: 10px;
 }
 .customers-reverew-column-text__text{
-   width: 370px;
-   height: 105px;
    font-family: 'Raleway';
    font-weight: 400;
    font-size: 18px;
@@ -109,7 +107,6 @@ body {
 
 .customers-reverew-column-body-right__title {
    width: 269px;
-   height: 54px;
    font-family: 'Open Sans';
    font-weight: 700;
    font-size: 24px;
@@ -128,3 +125,89 @@ body {
    margin: 0;
 }
 
+@media screen and (max-width: 1250px) {
+   .customers-container {
+      width: 100%;
+   }
+   .customers__title {
+      font-size: 24px;
+      line-height: 28px;
+      margin-top: 48px;
+      margin-bottom: 48px;
+   }
+   
+   .customers-line__line {
+      width: 142px;
+      margin-bottom: 32px;
+   }
+   
+   .customers__subtitle {
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 32px;
+   }
+   
+   .customers-reverew-column {
+      width: 317px;
+   }
+
+   .customers-reverew-column-text__text{
+      font-size: 14px;
+      line-height: 16px;
+   }
+   
+   .customers-reverew-column-body-left__photo {
+      margin-right: 22px;
+   }
+   
+   .customers-reverew-column-body-right__title {
+      width: 230px;
+      font-size: 18px;
+      line-height: 25px;
+      margin-bottom: 9px;
+   }
+   
+   .customers-reverew-column-body-right__subtitle {
+      font-size: 14px;
+      line-height: 16px;
+   }
+   .customers-reverew-column-body-left__photo{
+      width: 63px;
+      height: 63px;
+   }
+}
+
+@media screen and (max-width: 1060px) {
+   .customers-reverews-row {
+      flex-direction: column;
+   }
+   .customers-line__line {
+      width: 134px;
+      margin-bottom: 24px;
+   }
+
+   .customers__subtitle {
+      margin-bottom: 24px;
+   }
+
+   .customers-reverew-column {
+      width: 280px;
+   }
+
+   .customers-reverew-column-text__text{
+      padding: 0 5px ;
+   }
+
+   .customers-reverew-column-body-right__title {
+      width: 80%;
+      font-size: 14px;
+      line-height: 19px;
+      margin-bottom: 10px;
+   }
+
+   .customers-reverew-column-body-left__photo{
+      width: 57px;
+      height: 57px;
+   }
+
+}
