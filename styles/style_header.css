@@ -54,4 +54,13 @@ body{
    font-size: 13px;
 }
 
+@media screen and (max-width: 810px){
+   .header-menu {
+      display: none;
+   }
+   .header-container{
+      display: block;
+   }
+}
+
 
