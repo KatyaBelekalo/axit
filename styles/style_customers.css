@@ -125,6 +125,10 @@ body {
    margin: 0;
 }
 
+.imge {
+   display: none;
+}
+
 @media screen and (max-width: 1250px) {
    .customers-container {
       width: 100%;
@@ -210,5 +214,13 @@ body {
       width: 57px;
       height: 57px;
    }
+
+   .disiable{
+      display: none;
+   }
+
+   .imge {
+      display: block;
+   } 
 
 }
